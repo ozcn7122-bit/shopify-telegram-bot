@@ -6,7 +6,7 @@ app = Flask(__name__)
 BOT_TOKEN    = os.environ.get("BOT_TOKEN")
 CHAT_ID      = os.environ.get("CHAT_ID")
 SHOPIFY_TOKEN = os.environ.get("SHOPIFY_TOKEN")
-SHOP_URL     = "elyvo-france.myshopify.com"
+SHOP_URL = "fdtecom.myshopify.com"
 
 def get_ca(date_min, date_max):
     url = f"https://{SHOP_URL}/admin/api/2024-01/orders.json"
